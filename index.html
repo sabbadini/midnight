@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/tooplate-style.css" />
     <!-- Templatemo style -->
-
+    <style>
+      .alignRight {
+        float: right;
+      }
+    </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YPW03VQLXJ"></script>
     <script>
@@ -48,14 +52,10 @@
               <a href="#" data-linkid="0" data-align="right" class="tm-nav-link">Intro</a>
             </li>
             <li class="tm-nav-item">
-              <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">About</a>
+              <a href="#" data-linkid="2" data-align="middle" class="tm-nav-link">Work</a>
             </li>
             <li class="tm-nav-item">
-              <a
-                href="#"
-                data-linkid="2"
-                data-align="middle"
-                class="tm-nav-link">Work</a>
+              <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">About</a>
             </li>
             <li class="tm-nav-item">
               <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
@@ -83,34 +83,10 @@
                     <h3><b>Midnight Motors</b></h3>
                     delivers classic car design with modern performance, combining innovation with craftsmanship.
                 </div>
-                <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Read More</a>
+                <a href="#" id="tm_work_link" data-linkid="2" class="tm-link">View Gallery</a>
               </section>
 
-              <!-- Section 1 About Me -->
-              <section class="tm-section tm-section-1">
-                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
-                  <h2 class="tm-text-blue mb-4">About Me</h2>
-                  <p class="mb-4">
-                    Before moving to the countryside, I had a life in the city doing industrial engineering and technology.
-                    <br>
-                    <br>
-                    <a href="https://www.youtube.com/channel/UCaHtV6xldJmixwz6LfL1uRQ">Midnight Motors YouTube Channel</a>
-                    <br>
-                    <a href="https://industryforever.com">Industrial Design Blog</a>
-                    <br>
-                    <a href="https://www.instagram.com/fasttracktony/">Instagram</a>
-                  </p>
-                  <a
-                    href="#"
-                    id="tm_work_link"
-                    data-linkid="2"
-                    class="tm-link m-0"
-                    >Next</a
-                  >
-                </div>
-              </section>
-
-              <!-- Section 2 Work (Gallery) -->
+              <!-- Section 1 Work (Gallery) -->
               <section class="tm-section tm-section-2 mx-auto">
                 <div class="grid tm-gallery">
                   <figure class="effect-goliath tm-gallery-item">
@@ -226,6 +202,31 @@
                       <a href="img/jeep_trees.jpeg">View more</a>
                     </figcaption>
                   </figure>
+                </div>
+                <a
+                  href="#"
+                  id="tm_about_link"
+                  data-linkid="1"
+                  class="tm-link m-0 alignRight"
+                  >Next</a
+                >
+              </section>
+
+              <!-- Section 2 About Me -->
+              <section class="tm-section tm-section-1">
+                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
+                  <h2 class="tm-text-blue mb-4">About Me</h2>
+                  <p class="mb-4">
+                    Before moving to the countryside, I had a life in the city doing industrial engineering and technology.
+                    <br>
+                    <br>
+                    <a href="https://www.youtube.com/channel/UCaHtV6xldJmixwz6LfL1uRQ">Midnight Motors YouTube Channel</a>
+                    <br>
+                    <a href="https://industryforever.com">Industrial Design Blog</a>
+                    <br>
+                    <a href="https://www.instagram.com/fasttracktony/">Instagram</a>
+                  </p>
+                  <a href="#" id="tm_contact_link" data-linkid="3" class="tm-link">Contact</a>
                 </div>
               </section>
 
@@ -372,6 +373,7 @@
 
         $("#tm_about_link").on("click", navLinkClick);
         $("#tm_work_link").on("click", navLinkClick);
+        $("#tm_contact_link").on("click", navLinkClick);
 
         // Each menu item click
         eachNavLink.on("click", navLinkClick);
