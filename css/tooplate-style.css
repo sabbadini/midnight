@@ -88,7 +88,7 @@ footer a:link, footer a:visited {
 
 .tm-site-header-box {
   display: inline-block;
-  padding: 40px 80px 40px 40px;
+  padding: 40px 40px 40px 40px;
   margin: 40px 40px 100px;
 }
 
@@ -128,7 +128,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-textbox {
-  padding: 45px;
+  padding: 25px;
   font-size: 1.1rem;
   color: #c5c7c6;
   line-height: 1.8;
